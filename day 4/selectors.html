@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style> .red{
+       background-color:red}
+       #green{ background-color: green} 
+     /*  child selector
+     div > p{color: blue; background-color: rebeccapurple;}
+     * {margin: 0; padding: 0;}*/
+     /* decendent selector*/
+      div p{color: blue; background-color: rebeccapurple;}
+      /* universal selector*/
+     * {margin: 0; padding: 0;}
+     /* psuedo selector  */
+     a:visited{
+        color: palevioletred;
+     }
+     a:link{
+        color: lawngreen;
+     }
+     a:active{
+        background-color: red;
+     }
+     a:hover{
+        background-color: yellow;
+     }
+     P:first-child{
+        background-color: paleturquoise;
+     }
+        </style>
+</head>
+<body>
+    <div>
+        lol
+    </div>
+    
+    <div class="red">
+    hola m reddo
+</div >
+<div id="green">
+    lol
+</div>
+<a href="www.google.com">goo gly</a>
+<a href="www.facebook.com">facebook </a>
+<div>
+    <p>this is a para </p>
+</div>
+</body>
+</html>
